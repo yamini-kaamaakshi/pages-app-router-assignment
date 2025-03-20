@@ -19,8 +19,8 @@ export default function Contact() {
             {loading ? (
                 <Loading /> // Show the spinner while loading
             ) : (
-                <main className="flex-grow bg-gray-50 p-10">
-                    <div className="max-w-3xl mx-auto text-center">
+                <main className="bg-gray-50 min-h-screen flex flex-col items-center justify-center py-10 px-6">
+                    <div className="max-w-4xl mx-auto text-center">
                         <h1 className="text-4xl font-extrabold text-gray-800 mb-6">Contact Us</h1>
                         <p className="text-lg text-gray-700 mb-8">
                             Feel free to reach out to us for any inquiries or support.
